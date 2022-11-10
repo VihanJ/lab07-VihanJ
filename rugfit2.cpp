@@ -21,7 +21,11 @@ int main() {
 
     // RESET Rectangle NAMED "rug" FOR SIZES INPUT BY USER
     // (instead of the (0,0) used when it was created.
-    
+
+    cout << "enter width and length of rug: ";
+    cin >> width >> length;
+    rug.setWidth(width);
+    rug.setLength(length);
     
     // DO NOT CHANGE ANYTHING BELOW (if you do, you are subject to
     // deductions, or getting a zero on the lab.))
